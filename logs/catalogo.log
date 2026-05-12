@@ -1,0 +1,43 @@
+2026-05-12 17:14:34 INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 9.0.1.Final
+2026-05-12 17:14:34 INFO  com.empresa.catalogo.CatalogoApplication - Starting CatalogoApplication using Java 26 with PID 21612 (D:\Endorfin\Desktop\catalogo\target\classes started by xavis in D:\Endorfin\Desktop\catalogo)
+2026-05-12 17:14:34 DEBUG com.empresa.catalogo.CatalogoApplication - Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-05-12 17:14:34 INFO  com.empresa.catalogo.CatalogoApplication - No active profile set, falling back to 1 default profile: "default"
+2026-05-12 17:14:35 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-12 17:14:35 INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interface.
+2026-05-12 17:14:35 INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-05-12 17:14:35 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-05-12 17:14:35 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-05-12 17:14:35 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-12 17:14:35 INFO  org.springframework.boot.web.context.servlet.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 778 ms
+2026-05-12 17:14:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-05-12 17:14:35 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:e6c44fb0-ffad-49a1-a888-f7e8a12b2f13 user=SA
+2026-05-12 17:14:35 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-05-12 17:14:35 INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-12 17:14:36 INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-12 17:14:36 INFO  org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-12 17:14:36 INFO  org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:e6c44fb0-ffad-49a1-a888-f7e8a12b2f13]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: E6C44FB0-FFAD-49A1-A888-F7E8A12B2F13/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-12 17:14:36 INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-12 17:14:36 INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-12 17:14:36 INFO  org.springframework.data.jpa.repository.query.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-12 17:14:37 WARN  org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-12 17:14:37 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-05-12 17:14:37 INFO  org.springframework.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-05-12 17:14:37 INFO  com.empresa.catalogo.CatalogoApplication - Started CatalogoApplication in 2.663 seconds (process running for 2.922)
+2026-05-12 17:14:46 INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-12 17:14:46 INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-05-12 17:14:46 INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-05-12 17:14:46 INFO  com.empresa.catalogo.service.ProductoServiceImpl - Creando producto: nombre=Laptop, categoria=ELECTRONICA
+2026-05-12 17:14:46 INFO  com.empresa.catalogo.service.ProductoServiceImpl - Producto creado exitosamente con id=1
+2026-05-12 17:14:50 INFO  com.empresa.catalogo.service.ProductoServiceImpl - Listando todos los productos activos
+2026-05-12 17:14:50 INFO  com.empresa.catalogo.service.ProductoServiceImpl - Total de productos activos encontrados: 1
